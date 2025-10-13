@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 24px;
+
+
+}
+
+.annee{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: olive;
+
+
+}
+
+.activite{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
