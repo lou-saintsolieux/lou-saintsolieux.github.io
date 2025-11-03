@@ -1,19 +1,91 @@
 .grid{
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 24px;
+    grid-template-columns: 40% 1fr;
+    grid-template-rows:auto auto;
+
+}
+
+.intitule{
+    font-family:"Roboto"; 
+    font-weight: bold;
+    font-size:18px;
 
 
 }
 
-.annee{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    color: olive;
+.contenu{
+    font-family:"Roboto";
+    font-size: 16px;
+}
 
+.photoronde{
+    width: 200px ;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 
 }
 
-.activite{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.entete{
+
+    align-items: center;
+    gap: 20%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: cadetblue;
+    
+}
+.competence{
+    grid-column: 1;
+    padding-left: 40px;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    background-color: lightgrey;
+
+
+}
+.exp{
+    grid-column: 2;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.formation{
+    grid-row: 1;
+}
+.experi{
+    grid-row: 2;
+    margin-top: 70px;
+}
+.infos{
+    grid-row: 1;
+}
+.comp{
+    grid-row: 3;
+    margin-top: 70px;
+}
+.langue{
+    grid-row: 2;
+    margin-top: 70px;
+}
+.roboto-tipoo {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+h1{
+    font-family:"Roboto";
+    font-size: 50px;
+}
+h2{
+    font-family:"Roboto";
+    font-size:25px;
+    text-decoration: underline;
+
 }
