@@ -332,6 +332,30 @@ body.stromae {
     background-repeat: no-repeat;
     margin: 0;
 }
+body.cera {
+    background-image: url("images/bonhommes.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+body.viny {
+    background-image: url("images/couvpomme.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+body.it {
+    background-image: url("images/ititi.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+}
 .overlay-page {
     position: fixed;
     top: 20px;           
