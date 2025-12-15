@@ -348,8 +348,16 @@ body.viny {
     background-repeat: no-repeat;
     margin: 0;
 }
-body.it {
+body.sky {
     background-image: url("images/jt.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+body.it {
+    background-image: url("images/ititi.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
